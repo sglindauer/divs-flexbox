@@ -106,6 +106,10 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background: url('../img/airplane.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center; 
 }
 
 .wrapper {
@@ -115,16 +119,24 @@ body {
 }
 
 .div-1, .div-2, .div-3 {
-  color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background: rgba(76, 175, 80, 0.5);
   height: 300px;
   display: flex;
   justify-content: center; 
   align-items: center; 
-  width: 30%
+  width: 30%;
+  box-sizing: border-box;
+  padding: 10px;  
 }
+
+p {
+    text-align: center;
+    color:white; 
+}
+
+
 
 
 
