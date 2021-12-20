@@ -108,8 +108,12 @@ body {
   height: 100%;
   background: url('../img/airplane.jpg');
   background-size: cover;
-  display: flex;
-  align-items: center; 
+}
+
+header, main, footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .wrapper {
@@ -118,10 +122,20 @@ body {
   justify-content: space-between;
 }
 
+h1 {
+    font-size: 4em; 
+}
+
+main {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1em; 
+    margin-bottom: 1.5em;
+}
+
 .div-1, .div-2, .div-3 {
   line-height: 1.5em;
-  font-size: 1.6em;
-  height: 300px;
+  font-size: 1.2em;
+  height: 10em;
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -140,6 +154,9 @@ p {
     border-right: 1px solid white; 
 }
 
+a {
+    padding: 1em; 
+}
 
 
 
